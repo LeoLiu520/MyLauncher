@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         app.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                System.out.print("test");
+                System.out.print("button");
             }
         });
 
