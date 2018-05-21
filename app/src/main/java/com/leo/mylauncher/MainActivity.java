@@ -24,17 +24,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button app = findViewById(R.id.apps);
-        app.setOnClickListener(new View.OnClickListener() {
+        /*app.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 System.out.print("temp");
             }
-        });
+        });*/
 
         Toast.makeText(this,"This is Launch",Toast.LENGTH_LONG).show();
         /*new AlertDialog.Builder(this)
                 .setTitle("Message").setMessage("This is my Launcher")
                 .setPositiveButton("OK",null).show();*/
+    }
+
+    public void onCleckApp(View v){
+        Toast.makeText(this,"This is APPS",Toast.LENGTH_LONG).show();
     }
 
 }

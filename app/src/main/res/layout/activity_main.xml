@@ -20,6 +20,7 @@
             android:layout_height="wrap_content"
             android:elevation="0dp"
             android:hapticFeedbackEnabled="false"
+            android:onClick="onCleckApp"
             android:text="Apps" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
